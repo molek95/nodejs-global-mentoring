@@ -1,0 +1,17 @@
+# ignores all .txt files
+*.txt
+
+# ignores all files in the log directory
+log/*
+
+# ignores all .tmp files
+*.tmp
+
+# ignores all files in the build/ directory
+build/
+
+# ignore node_modules directory 
+node_modules/
+
+# ignore dist directory 
+dist/
