@@ -14,7 +14,7 @@ function logActivity(): void {
 
   exec(command, (err: Error | null, stdout: string, stderr: string) => {
     if (err) {
-      (process.stderr as any).write(err.message);
+      console.log(err.message);
       return;
     }
 
