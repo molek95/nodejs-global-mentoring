@@ -2,16 +2,16 @@
     "name": "activity-monitor",
     "version": "1.0.0",
     "description": "A script to log system activity",
-    "main": "activityMonitor.ts",
+    "main": "index.ts",
     "scripts": {
-      "start": "ts-node activityMonitor.ts"
+        "start": "ts-node index.ts"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {
-      "@types/node": "^14.14.37",
-      "ts-node": "^9.1.1",
-      "typescript": "^4.2.3"
+    "devDependencies": {
+        "@types/node": "^20.11.25",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.2"
     }
-  }
+}
