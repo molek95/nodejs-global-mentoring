@@ -22,7 +22,6 @@ function logActivity() {
     process.stdout.write(result);
 
     logTimer += INTERVAL;
-    console.log({ logTimer });
     if (logTimer % ONE_MINUTE_INTERVAL === 0) {
       let log: string = formatLog(result);
       logToFile(log);
