@@ -1,0 +1,25 @@
+{
+  "name": "node-typescript-server",
+  "version": "1.0.0",
+  "description": "A server application with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.ts --name ngmp-network-app --watch --interpreter ./node_modules/.bin/ts-node",
+    "stop": "pm2 stop ngmp-network-app",
+    "dev": "nodemon index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "node.js",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.4.4"
+  }
+}
